@@ -1,11 +1,13 @@
-# web-proxy-script
+# PHP Web Proxy
 
-Minimalist, private web proxy script used at https://nrird.xyz/proxy
+Minimalist, private web proxy script based on [heiswayi/web-proxy-script](https://github.com/heiswayi/web-proxy-script).
 
-## Screenshot
+## Installation
 
-![Screenshot](screenshot2.png)
+**PHP Web Proxy** comes with [DDEV](https://www.ddev.com/) configuration.
 
-## License
+````shell script
+$ ddev start && ddev launch
+````
 
-MIT License
+![Screenshot](screenshot.png)
